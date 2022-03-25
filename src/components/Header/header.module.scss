@@ -1,1 +1,12 @@
-// TODO
+.container {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid var(--border);  
+}
+
+.content {
+  width: 100%;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2rem 1rem; 
+}
