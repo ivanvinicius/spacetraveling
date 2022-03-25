@@ -11,13 +11,10 @@
     "slicemachine": "start-slicemachine"
   },
   "dependencies": {
-    "@prismicio/client": "^6.4.2",
-    "@prismicio/helpers": "^2.2.1",
-    "@prismicio/react": "^2.1.2",
-    "@prismicio/slice-simulator-react": "^0.2.0",
+    "@prismicio/client": "5.1.1",
     "date-fns": "^2.19.0",
     "next": "10.0.7",
-    "prismic-dom": "^2.2.5",
+    "prismic-dom": "2.2.5",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-icons": "^4.3.1",
@@ -43,6 +40,7 @@
     "eslint-plugin-promise": "^5.2.0",
     "eslint-plugin-react": "^7.29.0",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "identity-obj-proxy": "^3.0.0",
     "jest": "^26.6.3",
     "prettier": "^2.5.1",
     "sass": "^1.32.8",
