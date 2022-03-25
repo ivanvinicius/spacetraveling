@@ -1,0 +1,61 @@
+{
+  "id": "3eb3bfad-6d04-458e-af6b-0335bb0aefa7",
+  "uid": "amet-ducimus-nostrum",
+  "type": "posts",
+  "data": {
+    "title": "envisioneer value-added applications",
+    "subtitle": "implement B2C architectures",
+    "author": "extend B2B mindshare",
+    "banner": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1587840171670-8b850147754e?w=900&h=500&fit=crop"
+    },
+    "content": [
+      {
+        "heading": "leverage B2C e-markets",
+        "body": [
+          {
+            "type": "paragraph",
+            "text": "Lorem ipsum Lorem ea id quis veniam. Nulla culpa non dolor qui ut eiusmod elit eu magna aliqua ex tempor ex culpa.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "heading": "synergize user-centric blockchains",
+        "body": [
+          {
+            "type": "paragraph",
+            "text": "Tempor ullamco minim cupidatat enim eu in laborum sunt. Qui enim veniam laboris. Ad enim qui id veniam aute in sit labore veniam quis culpa.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "heading": "leverage global channels",
+        "body": [
+          {
+            "type": "paragraph",
+            "text": "Aliqua culpa anim ut dolore exercitation laboris ea magna tempor.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "heading": "reinvent integrated initiatives",
+        "body": [
+          {
+            "type": "paragraph",
+            "text": "Nisi sit consequat elit ut veniam et ipsum cupidatat esse consectetur do.",
+            "spans": []
+          }
+        ]
+      }
+    ]
+  }
+}

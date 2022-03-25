@@ -1,0 +1,71 @@
+{
+  "id": "posts",
+  "label": "Posts",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "slug",
+          "placeholder": "slug"
+        },
+        "type": "UID"
+      },
+      "title": {
+        "config": {
+          "label": "title",
+          "placeholder": "title"
+        },
+        "type": "Text"
+      },
+      "subtitle": {
+        "config": {
+          "label": "subtitle",
+          "placeholder": "subtitle"
+        },
+        "type": "Text"
+      },
+      "author": {
+        "config": {
+          "label": "author",
+          "placeholder": "author"
+        },
+        "type": "Text"
+      },
+      "banner": {
+        "config": {
+          "label": "banner",
+          "constraint": {},
+          "thumbnails": []
+        },
+        "type": "Image"
+      },
+      "content": {
+        "config": {
+          "label": "content",
+          "placeholder": "content",
+          "fields": {
+            "heading": {
+              "config": {
+                "label": "heading",
+                "placeholder": "heading"
+              },
+              "type": "Text"
+            },
+            "body": {
+              "config": {
+                "label": "body",
+                "placeholder": "body",
+                "allowTargetBlank": true,
+                "single": "paragraph,em,hyperlink,image,embed,list-item,rtl,o-list-item,strong"
+              },
+              "type": "StructuredText"
+            }
+          }
+        },
+        "type": "Group"
+      }
+    }
+  }
+}
