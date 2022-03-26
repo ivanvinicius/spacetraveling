@@ -9,4 +9,13 @@
   max-width: 860px;
   margin: 0 auto;
   padding: 2rem 1rem; 
+
+  img {
+    transition: filter 0.3s;
+    
+    &:hover {
+      cursor: pointer;
+      filter: brightness(0.7)
+    }   
+  }
 }

@@ -34,7 +34,8 @@
 		"camelcase": "off",
 		"no-case-declarations": "off",
 		"@typescript-eslint/no-explicit-any": "off",
-		
+		"multiline-ternary": "off",
+
 		"react/self-closing-comp": ["error", {
 			"component": true,
 			"html": true

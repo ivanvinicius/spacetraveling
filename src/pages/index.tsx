@@ -8,9 +8,19 @@ import { RiUserLine, RiCalendarLine } from 'react-icons/ri'
 import { useState } from 'react'
 
 import { getPrismicClient } from '../services/prismic'
-import { ICustomTypePosts } from '../types/ICustomTypePosts'
 
 import styles from './home.module.scss'
+
+interface ICustomTypePosts {
+  uid: string
+  title: string
+  subtitle: string
+  author: string
+  content: Array<{
+    heading: string
+    body: Array<{ type: string; text: string }>
+  }>
+}
 
 interface Post {
   uid?: string
@@ -134,6 +144,7 @@ export const getStaticProps: GetStaticProps = async () => {
   }
 
   return {
-    props: { postsPagination }
+    props: { postsPagination },
+    revalidate: 60 * 60 * 24 // 1day
   }
 }
